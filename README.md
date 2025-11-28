@@ -45,14 +45,38 @@ This is my first real project, and I would be delighted to receive feedback on i
 * Local data storage (SQLite).
 * Admin panel for user management (multi-user support).
 
+<a name="-français"></a>
+# 🇫🇷 Français
+
+> **Un projet d'étude qui se transforme en projet concret.**
+
+Je vous présente **Ordo**, une application de gestion de tâches ultime avec **Intelligence Artificielle intégrée**. Sa particularité ? Tout fonctionne **en local**. Vous ne dépendez de personne, d'aucun serveur distant, et vous n'avez pas besoin d'internet pour utiliser les fonctionnalités intelligentes.
+
+C'est mon premier vrai projet et je serais ravi d'avoir des retours pour toute amélioration, bug ou autre commentaire !
+
+## ✨ Fonctionnalités Principales
+
+### 🚀 Gestion de Tâches Avancée
+* **Vues Multiples :** Basculez entre une vue **Kanban** (Drag & Drop) et une vue **Liste** détaillée.
+* **Organisation :** Système de priorité, tags colorés, sous-tâches et commentaires.
+* **Fichiers :** Attachez des fichiers à vos tâches par simple glisser-déposer.
+* **Chronomètre :** Time-tracking intégré pour mesurer le temps passé sur chaque tâche.
+
+### 🧠 Intelligence Artificielle Locale (Offline)
+* **Chat avec vos données :** Posez des questions à *OrdoBot* sur vos projets (ex: "Qu'est-ce qui est urgent cette semaine ?"). Il analyse votre base de données en temps réel.
+* **Création Magique :** Décrivez une tâche en langage naturel (ex: "Réunion budget demain à 14h"), l'IA remplit le formulaire pour vous.
+* **Générateur de Sous-tâches :** Laissez l'IA découper une tâche complexe en étapes simples.
+* *Note : Utilise le modèle Mistral 7B via `llama-cpp-python`. Vos données ne quittent jamais votre PC.*
+
+### 📅 Calendrier & Planification
+* Vue mensuelle interactive.
+* Gestion des tâches récurrentes (Quotidien, Hebdomadaire, Mensuel).
+
+### 🔒 Sécurité & Administration
+* Authentification par mot de passe haché (SHA256).
+* Données stockées en local (SQLite).
+* Panneau d'administration pour gérer les utilisateurs (multi-comptes).
+
 ## 🛠️ Installation
 
-### Prerequisites
-* Windows (recommended for native notifications).
-* Python 3.10 or higher.
-* [Visual Studio Build Tools](https://visualstudio.microsoft.com/visual-cpp-build-tools/) (Required to compile `llama-cpp-python` on Windows).
-
-### 1. Clone the repository
-```bash
-git clone [https://github.com/YOUR_USERNAME/ordo.git](https://github.com/YOUR_USERNAME/ordo.git)
-cd ordo
+.ZIP
