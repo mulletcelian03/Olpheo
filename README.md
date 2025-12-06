@@ -1,94 +1,126 @@
 <div align="center">
 
-  <img src="assets/app.png" alt="Olpheo Logo" width="120" height="120" />
+  <a href="#">
+    <img src="assets/logo.jpg" alt="Olpheo Logo" width="150" height="150" style="border-radius: 20%;">
+  </a>
 
   # OLPHEO
-  **L'Assistant de Tâches Ultime propulsé par l'IA | The Ultimate AI Powered Task Manager**
+  **Ultimate Edition V1.7.0**
 
-  <a href="releases">
-    <img src="https://img.shields.io/badge/Windows-Installer-0078D6?style=for-the-badge&logo=windows&logoColor=white" alt="Download Installer" />
-  </a>
-  <a href="https://www.python.org/">
-    <img src="https://img.shields.io/badge/Python-3.10%2B-FFE873?style=for-the-badge&logo=python&logoColor=black" alt="Python" />
-  </a>
-  <a href="https://flet.dev/">
-    <img src="https://img.shields.io/badge/UI-Flet-6C47FF?style=for-the-badge" alt="Flet" />
-  </a>
-  <a href="#">
-    <img src="https://img.shields.io/badge/IA-Local%20Mistral-FF8800?style=for-the-badge" alt="AI" />
-  </a>
-
-  <br />
+  <p style="font-size: 1.2rem;">
+    The <b>Local</b> AI-Powered Productivity Assistant.<br>
+    <i>Don't just manage your projects. Dominate them.</i>
+  </p>
 
   <p>
-    <a href="#english">🇬🇧 English</a> •
-    <a href="#français">🇫🇷 Français</a>
+    <a href="releases">
+      <img src="https://img.shields.io/badge/Windows-Download_Installer-0078D6?style=for-the-badge&logo=windows&logoColor=white" alt="Windows Installer" />
+    </a>
+    <br/>
+    <a href="#">
+      <img src="https://img.shields.io/badge/Tech-Python_3.10-FFE873?style=for-the-badge&logo=python&logoColor=black" />
+    </a>
+    <a href="#">
+      <img src="https://img.shields.io/badge/UI-Flet_(Flutter)-6C47FF?style=for-the-badge" />
+    </a>
+    <a href="#">
+      <img src="https://img.shields.io/badge/AI-Mistral_7B_Local-FF8800?style=for-the-badge" />
+    </a>
+    <a href="#">
+      <img src="https://img.shields.io/badge/Data-SQLite_Encrypted-003B57?style=for-the-badge&logo=sqlite&logoColor=white" />
+    </a>
   </p>
+
+  [🇬🇧 English](#english) | [🇫🇷 Français](#français)
 
 </div>
 
-<br />
+<br>
+
+<div align="center">
+  <img src="assets/branding.jpg" alt="Olpheo UI Branding" width="100%" style="border-radius: 10px; border: 1px solid #333;">
+</div>
 
 ---
 
 <a name="english"></a>
-## 🇬🇧 English Description
 
-**Olpheo** is a modern, privacy-focused task management application built with Python. It combines a sleek Kanban/List interface with a powerful **Local AI Assistant** to help you organize your life without sending data to the cloud.
+## ⚡ Why Olpheo?
 
-### ✨ Key Features
+Olpheo isn't "just another To-Do List". It is a **native**, **blazing fast**, and **completely private** desktop application designed for those who refuse to hand their life data over to the Cloud.
 
-| Feature | Description |
-| :--- | :--- |
-| **🧠 Local AI** | Chat with your data & auto-generate subtasks. **100% Offline & Private.** |
-| **📊 Dynamic Views** | Switch instantly between **Kanban Board** (drag & drop) and **List View**. |
-| **📅 Calendar** | Monthly view with **recurrence support** (Daily, Weekly) and visual indicators. |
-| **🔐 Privacy First** | Secure login, hashed passwords, and local database. |
-| **⚡ All-in-One** | One-click installer. No complex setup required. |
+### 💎 "Liquid Tech" Architecture
 
-### 📥 Installation
+| Component | Technology | Description |
+| :--- | :--- | :--- |
+| **UI Engine** | `Flet` | Flutter-like smooth interface, no web latency. |
+| **AI Brain** | `llama-cpp` | **Mistral-7B** runs locally on your CPU/GPU. |
+| **Database** | `SQLite3` | Single encrypted file, stored on your disk. |
+| **Integration** | `Win32 API` | Native notifications, taskbar icon, borderless window. |
 
-**Everything is included.** You don't need to install Python or download models manually.
+---
 
-1.  **Download** the installer (`Olpheo_Setup.exe`) from the [**Releases**](releases) page.
-2.  **Run the file**.
-3.  Follow the installation wizard instructions.
-4.  Launch **Olpheo** from your desktop!
+## 🚀 Key Features
 
-> *The installer will automatically set up the AI engine and necessary components.*
+### 1. 🧠 Local Artificial Intelligence (Offline)
+No more API subscriptions. Olpheo ships with its own embedded AI model.
+* **Magic Create ✨:** Type *"Budget meeting with Paul next Friday urgent"*, and the AI creates the task, assigns the date, priority, and tags automatically.
+* **OrdoBot 🤖:** Chat with your database. *"What did I miss this week?"* or *"Summarize my urgent tasks"*.
+* **Smart Breakdown:** Turn a complex goal into concrete subtasks with one click.
+
+### 2. 📊 Hybrid Kanban / List Management
+Switch from macro to micro views instantly.
+* **Kanban:** Smooth Drag & Drop to visualize your workflow.
+* **List View:** Powerful sorting by due date, priority, and tags.
+
+### 3. 📅 Calendar & Planning
+* Interactive monthly view.
+* **Recurrence Management** (Daily, Weekly, Monthly) with visual projection of future tasks.
+
+### 4. 🔒 Privacy & Security
+* **Local First:** No data ever leaves your machine.
+* **SHA-256 Hashing:** Your passwords are salted and hashed.
+* **Admin Panel:** Manage users, roles, and password resets securely.
 
 ---
 
 <a name="français"></a>
-## 🇫🇷 Description Française
 
-**Olpheo** est une application de gestion de tâches moderne et respectueuse de la vie privée. Elle combine une interface fluide (Kanban/Liste) avec un **Assistant IA Local** pour organiser vos projets sans envoyer de données dans le cloud.
+## ⚡ Pourquoi Olpheo ?
 
-### ✨ Fonctionnalités Clés
+Olpheo n'est pas "juste une autre To-Do List". C'est une application de bureau **native**, **rapide** et **totalement privée**, conçue pour ceux qui refusent de confier leur vie au Cloud.
 
-| Fonctionnalité | Description |
-| :--- | :--- |
-| **🧠 IA Locale** | Discutez avec vos données et générez des sous-tâches intelligentes. **100% Hors-ligne.** |
-| **📊 Vues Dynamiques** | Basculez instantanément entre **Kanban** (glisser-déposer) et **Liste**. |
-| **📅 Calendrier** | Vue mensuelle avec gestion des **récurrences** et indicateurs visuels. |
-| **🔐 Sécurité** | Connexion sécurisée, mots de passe hachés et base de données locale. |
-| **⚡ Tout-en-un** | Installateur unique. Aucune configuration complexe requise. |
+### 💎 Architecture "Liquid Tech"
 
-### 📥 Installation
+| Composant | Technologie | Description |
+| :--- | :--- | :--- |
+| **Moteur UI** | `Flet` | Interface fluide type Flutter, sans latence web. |
+| **Cerveau IA** | `llama-cpp` | **Mistral-7B** tourne localement sur votre CPU/GPU. |
+| **Base de Données** | `SQLite3` | Fichier unique, chiffré, stocké chez vous. |
+| **Intégration** | `Win32 API` | Notifications natives, barre des tâches, sans bordures. |
 
-**Tout est inclus.** Vous n'avez pas besoin d'installer Python ou de configurer l'IA manuellement.
+---
 
-1.  **Téléchargez** l'installateur (`Olpheo_Setup.exe`) depuis l'onglet [**Releases**](releases).
-2.  **Lancez le fichier**.
-3.  Suivez les instructions de l'assistant d'installation.
-4.  Lancez **Olpheo** depuis votre bureau !
+## 🚀 Fonctionnalités Clés
 
-> *L'installateur se charge de configurer le moteur d'IA et tous les composants nécessaires.*
+### 1. 🧠 Intelligence Artificielle Locale (Offline)
+Fini les abonnements API. Olpheo embarque son propre modèle d'IA.
+* **Magic Create ✨ :** Tapez *"Réunion budget avec Paul vendredi urgent"*, l'IA crée la tâche, assigne la date, la priorité et les tags.
+* **OrdoBot 🤖 :** Chattez avec votre base de données. *"Qu'est-ce que j'ai oublié cette semaine ?"*
+* **Découpage Intelligent :** Transformez un objectif complexe en sous-tâches concrètes en un clic.
 
-<br />
+### 2. 📊 Gestion Hybride Kanban / Liste
+Passez de la vue macro à la vue micro instantanément.
+* **Kanban :** Drag & Drop fluide pour visualiser le flux de travail.
+* **Liste :** Tri puissant par échéance, priorité et tags.
 
-<div align="center">
-  <small>Developed with ❤️ using Flet & Python</small>
-  <br />
-  <a href="LICENSE">License MIT</a>
-</div>
+### 3. 📅 Calendrier & Planification
+* Vue mensuelle interactive.
+* Gestion des **récurrences** (Quotidien, Hebdomadaire, Mensuel) avec projection visuelle des tâches futures.
+
+### 4. 🔒 Confidentialité & Sécurité
+* **Local First :** Aucune donnée ne sort de votre machine.
+* **Hashage SHA-256 :** Vos mots de passe sont sécurisés.
+* **Admin Panel :** Gestion des utilisateurs et des rôles.
+
+---
