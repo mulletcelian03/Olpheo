@@ -1,82 +1,94 @@
-# Ordo 🛡️🧠
+````markdown name=README.md
+<!--
+README Olpheo
+Landing page "dark mode" pour ton projet GitHub,
+Avec logo et identité visuelle, et structure optimisée pour présentation sur GitHub
+Utilise les images fournies pour le logo et la charte graphique
+-->
+
+<p align="center">
+  <img src="./logo_olpheo.png" alt="Olpheo Logo" width="180" />
+</p>
+
+<h1 align="center">Olpheo</h1>
+<p align="center">
+  <b>Votre productivité, réinventée par l'IA.</b><br>
+  Gérez vos tâches, visualisez votre calendrier et discutez avec vos projets grâce à une intelligence artificielle locale et sécurisée.<br>
+</p>
+<p align="center">
+  <a href="./Olpheo_Setup.zip">
+    <img src="https://img.shields.io/badge/Télécharger-v1.7.0-9D4EDD?style=for-the-badge&logo=windows&logoColor=white" alt="Télécharger pour Windows">
+  </a>
+  <a href="https://github.com/">
+    <img src="https://img.shields.io/badge/Code-GitHub-241B3B?style=for-the-badge&logo=github&logoColor=white" alt="Voir sur GitHub">
+  </a>
+</p>
+
+---
+
+## 🔮 Fonctionnalités
 
 <div align="center">
-
-![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
-![Flet](https://img.shields.io/badge/Framework-Flet-purple)
-![AI](https://img.shields.io/badge/AI-Local%20(Llama.cpp)-green)
-![License](https://img.shields.io/badge/License-Proprietary-red)
-
-[ **🇬🇧 English** ](#-english) | [ **🇫🇷 Français** ](#-français)
-
+  <table>
+    <tr>
+      <td align="center" width="180">
+        <img src="https://img.icons8.com/ios-filled/64/9D4EDD/columns.png" alt="Kanban">
+        <br><b>Gestion Intelligente</b>
+        <br><sub>Vues Kanban et Liste, statuts personnalisables pour s'adapter à tous vos projets.</sub>
+      </td>
+      <td align="center" width="180">
+        <img src="https://img.icons8.com/ios-filled/64/9D4EDD/robot.png" alt="IA Integrée">
+        <br><b>IA Intégrée</b>
+        <br><sub>Discutez avec OrdoBot pour générer des sous-tâches et analyser vos projets facilement.</sub>
+      </td>
+      <td align="center" width="180">
+        <img src="https://img.icons8.com/ios-filled/64/9D4EDD/security-shield-green.png" alt="Sécurité Locale">
+        <br><b>Sécurité Locale</b>
+        <br><sub>Vos données restent sur votre machine (SQLite + Verrouillage socket) pour une confidentialité maximale.</sub>
+      </td>
+    </tr>
+  </table>
 </div>
 
 ---
 
-<a name="-english"></a>
-# 🇬🇧 English
+## 🌈 Identité Visuelle
 
-> **A study project turning into a concrete reality.**
+<img src="./olpheo_identity.png" alt="Olpheo UI Identity" width="80%" />
 
-Welcome to **Ordo**, the ultimate task management application with **integrated Artificial Intelligence**. Its key feature? Everything runs **locally**. You don't depend on anyone, no remote servers are involved, and you don't need the internet to use the smart features.
+> **Couleur principale :** #120D1D (Deep Dark Purple)  
+> **Couleur primaire :** #9D4EDD (Violet vibrant)  
+> **Couleur secondaire :** #E0AAFF (Rose/Violet clair)
+>  
+> **Style :** Moderne, épuré, effets "Glassmorphism" (transparence et flou sur les cartes et containers)
 
-This is my first real project, and I would be delighted to receive feedback on improvements, bugs, or any other comments!
+---
 
-## ✨ Key Features
+## ⚡ Télécharger
 
-### 🚀 Advanced Task Management
-* **Multiple Views:** Switch between a **Kanban** view (Drag & Drop) and a detailed **List** view.
-* **Organization:** Priority system, colored tags, subtasks, and comments.
-* **Files:** Attach files to your tasks via simple drag-and-drop.
-* **Timer:** Integrated time-tracking to measure time spent on each task.
+> <b>Disponible pour Windows 10/11. Aucun installateur requis (Portable).</b><br>
+> 
+> <a href="./Olpheo_Setup.zip"><img src="https://img.shields.io/badge/Télécharger%20ZIP-v1.7.0-9D4EDD?style=for-the-badge&logo=windows&logoColor=white" alt="Download"></a>
 
-### 🧠 Local AI (Offline)
-* **Chat with your data:** Ask *OrdoBot* questions about your projects (e.g., "What is urgent this week?"). It analyzes your database in real-time.
-* **Magic Creation:** Describe a task in natural language (e.g., "Budget meeting tomorrow at 2 PM"), and the AI fills out the form for you.
-* **Subtask Generator:** Let the AI break down complex tasks into simple steps.
-* *Note: Uses the Mistral 7B model via `llama-cpp-python`. Your data never leaves your PC.*
+---
 
-### 📅 Calendar & Planning
-* Interactive monthly view.
-* Recurring task management (Daily, Weekly, Monthly).
+## 📬 Contact & Liens
 
-### 🔒 Security & Administration
-* Authentication via hashed passwords (SHA256).
-* Local data storage (SQLite).
-* Admin panel for user management (multi-user support).
+- **Contact** : [contact@olpheo.com](mailto:contact@olpheo.com)
+- [GitHub](https://github.com/)
+- [Twitter](https://twitter.com/)
+  
+---
 
-<a name="-français"></a>
-# 🇫🇷 Français
+<p align="center">
+  © 2025 Olpheo. Tous droits réservés.
+</p>
 
-> **Un projet d'étude qui se transforme en projet concret.**
-
-Je vous présente **Ordo**, une application de gestion de tâches ultime avec **Intelligence Artificielle intégrée**. Sa particularité ? Tout fonctionne **en local**. Vous ne dépendez de personne, d'aucun serveur distant, et vous n'avez pas besoin d'internet pour utiliser les fonctionnalités intelligentes.
-
-C'est mon premier vrai projet et je serais ravi d'avoir des retours pour toute amélioration, bug ou autre commentaire !
-
-## ✨ Fonctionnalités Principales
-
-### 🚀 Gestion de Tâches Avancée
-* **Vues Multiples :** Basculez entre une vue **Kanban** (Drag & Drop) et une vue **Liste** détaillée.
-* **Organisation :** Système de priorité, tags colorés, sous-tâches et commentaires.
-* **Fichiers :** Attachez des fichiers à vos tâches par simple glisser-déposer.
-* **Chronomètre :** Time-tracking intégré pour mesurer le temps passé sur chaque tâche.
-
-### 🧠 Intelligence Artificielle Locale (Offline)
-* **Chat avec vos données :** Posez des questions à *OrdoBot* sur vos projets (ex: "Qu'est-ce qui est urgent cette semaine ?"). Il analyse votre base de données en temps réel.
-* **Création Magique :** Décrivez une tâche en langage naturel (ex: "Réunion budget demain à 14h"), l'IA remplit le formulaire pour vous.
-* **Générateur de Sous-tâches :** Laissez l'IA découper une tâche complexe en étapes simples.
-* *Note : Utilise le modèle Mistral 7B via `llama-cpp-python`. Vos données ne quittent jamais votre PC.*
-
-### 📅 Calendrier & Planification
-* Vue mensuelle interactive.
-* Gestion des tâches récurrentes (Quotidien, Hebdomadaire, Mensuel).
-
-### 🔒 Sécurité & Administration
-* Authentification par mot de passe haché (SHA256).
-* Données stockées en local (SQLite).
-* Panneau d'administration pour gérer les utilisateurs (multi-comptes).
-
-## 🛠️ Installation
-
-.ZIP
+<!-- 
+Instructions:
+- Place le fichier logo sous le nom ./logo_olpheo.png 
+- Place l'image charte graphique sous le nom ./olpheo_identity.png
+- Tu peux remplacer les liens et badges par les liens ou versions officielles de ton projet.
+- Les icônes utilisent un CDN (img.icons8.com), tu peux remplacer par tes propres SVGs si besoin.
+-->
+````
